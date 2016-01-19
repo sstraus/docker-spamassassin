@@ -1,8 +1,8 @@
-FROM debian:jessie
+FROM debian:sid
 
-MAINTAINER Christian Luginbühl <dinkel@pimprecords.com>
+MAINTAINER Stefano Straus <stefano@digita.it>
 
-ENV SPAMASSASSIN_VERSION 3.4.0
+ENV SPAMASSASSIN_VERSION 3.4.1-3
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
