@@ -2,7 +2,7 @@ FROM debian:sid
 
 MAINTAINER Stefano Straus <stefano@digita.it>
 
-ENV SPAMASSASSIN_VERSION 3.4.1-3
+ENV SPAMASSASSIN_VERSION 3.4.1-4
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
